@@ -5,7 +5,7 @@
 }
 
 body {
-  margin-top: 100px;
+  margin: 100px 0;
 }
 
 h1,
@@ -95,6 +95,10 @@ p {
   color: white;
 }
 
+.primary-link:hover {
+  color: white;
+}
+
 .secondary-link {
   border-radius: 4px;
   padding: 20px 15px;
@@ -110,11 +114,13 @@ p {
     font-size: 18px;
     opacity: 0.7;
   }
+
   .link-app {
     display: block;
     text-align: center;
-    padding: 5px 3px;
+    margin: 0 20px;
   }
+
   .about-link {
     display: none;
   }
@@ -123,28 +129,34 @@ p {
 @media (max-width: 1024px) {
   h1 {
     font-size: 18px;
-    text-align: center;
+    line-height: 1.5;
   }
 
   h2 {
     font-size: 22px;
+    line-height: 1.5;
   }
 
   h3 {
     font-size: 26px;
+    line-height: 1.5;
   }
+
   .container {
     display: block;
     text-align: center;
   }
+
   p {
     text-align: justify;
   }
+
   .link-app {
     display: block;
     text-align: center;
-    padding: 8px 5px;
+    margin: 0 200px;
   }
+
   .email-link {
     font-size: 24px;
   }
