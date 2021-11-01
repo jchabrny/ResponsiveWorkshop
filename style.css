@@ -103,3 +103,49 @@ p {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
 }
+
+@media (max-width: 576px) {
+  p {
+    text-align: justify;
+    font-size: 18px;
+    opacity: 0.7;
+  }
+  .link-app {
+    display: block;
+    text-align: center;
+    padding: 5px 3px;
+  }
+  .about-link {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+  .container {
+    display: block;
+    text-align: center;
+  }
+  p {
+    text-align: justify;
+  }
+  .link-app {
+    display: block;
+    text-align: center;
+    padding: 8px 5px;
+  }
+  .email-link {
+    font-size: 24px;
+  }
+}
